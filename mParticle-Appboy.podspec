@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = "12.0"
     s.ios.source_files      = 'Sources/**/*.{h,m,mm}'
     s.ios.resource_bundles  = { 'mParticle-Appboy-Privacy' => ['Sources/mParticle-Appboy/PrivacyInfo.xcprivacy'] }
-    s.ios.dependency 'mParticle-Apple-SDK', '~> 8.19'
+    s.ios.dependency 'mParticle-Apple-SDK', '~> 8.24.3'
     s.ios.dependency 'BrazeKit', '~> 9.0'
     s.ios.dependency 'BrazeKitCompat', '~> 9.0'
     s.ios.dependency 'BrazeUI', '~> 9.0'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = "12.0"
     s.tvos.source_files      = 'Sources/**/*.{h,m,mm}'
     s.tvos.resource_bundles  = { 'mParticle-Appboy-Privacy' => ['Sources/mParticle-Appboy/PrivacyInfo.xcprivacy'] }
-    s.tvos.dependency 'mParticle-Apple-SDK', '~> 8.19'
+    s.tvos.dependency 'mParticle-Apple-SDK', '~> 8.24.3'
     s.tvos.dependency 'BrazeKit', '~> 9.0'
     s.tvos.dependency 'BrazeKitCompat', '~> 9.0'
 
